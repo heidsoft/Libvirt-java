@@ -1,0 +1,25 @@
+Buildfile: build.xml
+
+init:
+     [copy] Copying 1 file to /home/veillard/libvirt-java
+
+build:
+
+test:
+
+BUILD FAILED
+/home/veillard/libvirt-java/build.xml:45: Problem: failed to create task or type junit
+Cause: the class org.apache.tools.ant.taskdefs.optional.junit.JUnitTask was not found.
+        This looks like one of Ant's optional components.
+Action: Check that the appropriate optional JAR exists in
+        -/usr/share/ant/lib
+        -/home/veillard/.ant/lib
+        -a directory added on the command line with the -lib argument
+
+Do not panic, this is a common problem.
+The commonest cause is a missing JAR.
+
+This is not a bug; it is a configuration problem
+
+
+Total time: 4 seconds
